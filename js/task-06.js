@@ -4,7 +4,6 @@ import users from "./users.js";
 console.group("\t TASK - 06 \t");
 const getUsersWithAge = (users, min, max) => {
   return users.filter((user) => user.age > min && user.age < max);
-  // .find((user) => user.age);
 };
 
 console.log(getUsersWithAge(users, 20, 30));
